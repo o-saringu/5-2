@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF=8">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="midasi">
+<h1>プログラム復習コンテンツ</h1>
+<a href="https://o-saringu.github.io/mokuji/">
+<div class="home"></div>
+</a>
+</div>
+
+<div class="oomidasi"><p>setup()関数</div>
+
+<div class="yoko">
+	<div class="yoko1">
+	<div class="komidasi1"><p>サンプルコードの結果</p></div>
+	<img src = "5-2.png">
+	</div>
+	<div class="yoko1">
+	<div class="komidasi2"><p>サンプルコード</div>
+	<div class="code">
+	<p>　　	int x=240;
+	<p>　　	int y=60;
+	<p>　　	int z=100;
+	<p>　
+	<p>　　	void setup(){
+	<p>　　	　size(480, 120);
+	<p>　　	　fill(102);
+	<p>　　	　}
+	<p>　　	void draw(){
+	<p>　　	　background(204);
+	<p>　　	　ellipse(x, y, z, z);
+	<p>　　	　}
+	</div>
+	</div>
+</div>
+
+<div class="komidasi3"><p>説明文</div>
+<div class="ep">
+	<p>　draw()関数と異なり1回のみ動作する関数。
+	<p>　一般的にsetup()関数内のコードはsize関数やbackground関数といった色を定義する場合が多い。
+	<p>　変数はsetup関数とdraw関数の外側に定義することが多い。　
+	<p>　processingが実行する順番は以下の通りになる。
+	<p>　①setup()とdraw()の外側に宣言された変数を作成
+	<p>　②setup()内のコードを１回実行　
+	<p>　③draw()内のコードを繰り返し実行
+
+</div>
+</body>
